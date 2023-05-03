@@ -1,0 +1,26 @@
+{
+    "name": "alisaleem/laravel-smtp2go-mailer",
+    "description": "Add mail config for SMTP2GO",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AliSaleem\\Smtp2GoMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Saleem",
+            "email": "alisaleem@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliSaleem\\Smtp2GoMailer\\Smtp2GoMailerServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    }
+}
