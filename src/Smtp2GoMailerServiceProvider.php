@@ -10,6 +10,6 @@ class Smtp2GoMailerServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/smtp2go.php', 'mail.mailers.smptp2go');
+        $this->mergeConfigFrom(__DIR__ . '/../config/smtp2go.php', 'mail.mailers.smtp2go');
     }
 }
